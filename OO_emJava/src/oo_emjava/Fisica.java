@@ -19,7 +19,7 @@ public class Fisica extends Cliente {
 
 
     public double calcularIMC(double peso){
-        double imc = peso / (altura*altura)
+        double imc = peso / (altura*altura);
         return imc;
     }
 }

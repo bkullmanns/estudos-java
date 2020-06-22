@@ -1,10 +1,13 @@
+
+import oo_emjava.Cidade;
+import oo_emjava.Cliente;
+import oo_emjava.Fisica;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package oo_emjava;
-
 /**
  *
  * @author bkullmann
@@ -14,6 +17,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         System.out.println("Hello World");
         Cidade c1 = new Cidade();
         c1.nome = "Porto Alegre";
@@ -34,10 +38,11 @@ public class Main {
         cliFisica.altura = 1.72;
         cliFisica.imprimir();
 
-        String nometal = cliFisica.buscarNome();
+        String nome = cliFisica.buscarNome();
         String nomeCompleto = cliFisica.buscarNomeCompleto(" Silva");
         Double imc = cliFisica.calcularIMC(80.9);
         System.out.println(nomeCompleto + " imc: " + imc);
+        
 
     }
     

@@ -3,7 +3,7 @@ package oo_emjava;
 public class Cliente {
     private int id;
     public String nome;
-    protected String bairro;
+    public String bairro;
     public Cidade cidade; /* cidade é um objeto */
 
     public Cliente(){
