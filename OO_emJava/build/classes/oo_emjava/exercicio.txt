@@ -1,0 +1,9 @@
+construir em java as classes:
+FormaGeometrica que possui o atributo id
+Quadrado que possui o atributo lado que é tipo double
+Retangulo que possui o atributo altura (double) e largura (double)
+Circulo que possui o atributo raio (double)
+
+As tres classes devem possuir um metodo para calcular a area
+
+As tres classes (Quadrado, Retangulo, Circulo) herdam de FormaGeometrica e devem possuir um método para calcular a área
